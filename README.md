@@ -25,6 +25,19 @@ HTML: The structure of the web pages.
 CSS: Styles to enhance the visual appeal.
 JavaScript: Provides interactivity and handles user actions.
 
+# Screenshots
+
+![Screenshot (390)](https://github.com/AbhijeetKrMishra2/Elderly-HeathApp/assets/139151966/8f621253-4b82-474a-ac35-c045cc677ad0)
+
+![Screenshot (391)](https://github.com/AbhijeetKrMishra2/Elderly-HeathApp/assets/139151966/652a05bb-8237-4410-820d-7b69b098c2db)
+
+![Screenshot (392)](https://github.com/AbhijeetKrMishra2/Elderly-HeathApp/assets/139151966/4bf15e3f-24c8-4577-9207-98a1c499e321)
+
+![Screenshot (393)](https://github.com/AbhijeetKrMishra2/Elderly-HeathApp/assets/139151966/054d79ae-21ed-42b1-b23c-976c6e28f0aa)
+
+
+
+
 # License
 
 This project is licensed under the MIT License.
