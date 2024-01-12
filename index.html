@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Elderly Health App</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <div id="app">
+    <h1>Elderly Health App</h1>
+
+    <div class="navbar">
+      <button style="background-color: #3498db;" onclick="toggleDiseases()">Diseases</button>
+      <button style="background-color: #2ecc71;" onclick="toggleMedicines()">Medicines</button>
+      <button style="background-color: #e74c3c;" onclick="toggleExercise()">Exercise</button>
+      <button style="background-color: #f39c12;" onclick="toggleHealthyFoods()">Healthy Foods</button>
+    </div>
+
+    <div class="content" id="diseaseContent">
+      <h2>Diseases</h2>
+      <p>Specific diseases:</p>
+      <ul>
+        <li>Hypertension</li>
+        <li>Diabetes</li>
+        <li>Arthritis</li>
+      </ul>
+      <label for="diseaseDropdown">Select Disease:</label>
+      <select id="diseaseDropdown">
+        <option value="hypertension">Hypertension</option>
+        <option value="diabetes">Diabetes</option>
+        <option value="arthritis">Arthritis</option>
+      </select>
+      <button onclick="getDiseaseDetails()">Get Details</button>
+    </div>
+
+    <div class="content" id="medicineContent" style="display: none;">
+      <h2>Medicines</h2>
+      <p>Specific medicines:</p>
+      <ul>
+        <li>Medicine A</li>
+        <li>Medicine B</li>
+        <li>Medicine C</li>
+      </ul>
+      <label for="medicineDropdown">Select Medicine:</label>
+      <select id="medicineDropdown">
+        <option value="medicineA">Medicine A</option>
+        <option value="medicineB">Medicine B</option>
+        <option value="medicineC">Medicine C</option>
+      </select>
+      <button onclick="getMedicineDetails()">Get Details</button>
+    </div>
+
+    <div class="content" id="exerciseContent" style="display: none;">
+      <h2>Exercise</h2>
+      <p>Specific exercises for different diseases:</p>
+      <ul>
+        <li>Hypertension: Light aerobic exercises, walking</li>
+        <li>Diabetes: Regular aerobic exercises, swimming</li>
+        <li>Arthritis: Gentle stretching, water aerobics</li>
+      </ul>
+      <label for="exerciseDropdown">Select Exercise:</label>
+      <select id="exerciseDropdown">
+        <option value="exerciseA">Exercise A</option>
+        <option value="exerciseB">Exercise B</option>
+        <option value="exerciseC">Exercise C</option>
+      </select>
+      <button onclick="getExerciseDetails()">Get Details</button>
+    </div>
+
+    <div class="content" id="foodContent" style="display: none;">
+      <h2>Healthy Foods</h2>
+      <p>Specific healthy foods:</p>
+      <ul>
+        <li>Fruits and vegetables</li>
+        <li>Whole grains</li>
+        <li>Lean proteins</li>
+      </ul>
+      <label for="foodDropdown">Select Food:</label>
+      <select id="foodDropdown">
+        <option value="foodA">Food A</option>
+        <option value="foodB">Food B</option>
+        <option value="foodC">Food C</option>
+      </select>
+      <button onclick="getFoodDetails()">Get Details</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
